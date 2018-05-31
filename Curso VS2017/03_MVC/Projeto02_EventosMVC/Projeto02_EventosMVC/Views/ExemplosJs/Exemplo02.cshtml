@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Exemplo01</title>
+</head>
+<body>
+    <div>
+        <h1>Manutenção de Clientes</h1>
+        <form>
+            CNPJ:<br />
+            <input type="text" id="cnpj" size="20" /><br />
+            Nome:<br />
+            <input type="text" id="nome" size="30" /><br />
+            Email:<br />
+            <input type="email" id="email" size="30" /><br />
+            <br />
+            <input type="button" id="btnEnviar" value="Enviar" onclick="exibirDados();" />
+            <input type="button" id="btnEnviar2" value="Enviar - Unobtrusive" />
+            <input type="button" id="btnEnviar3" value="Enviar - Função Anonima" />
+            <input type="button" id="btnEnviar4" value="Enviar - Arrow function" />
+        </form>
+    </div>
+    <script src="~/Scripts/funcoes.js"></script>
+</body>
+</html>

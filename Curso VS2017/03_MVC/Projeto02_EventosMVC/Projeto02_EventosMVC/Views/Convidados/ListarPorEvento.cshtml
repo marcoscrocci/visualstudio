@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Listar por Evento";
+}
+
+<h2>Listar Convidados por Evento (Ajax)</h2>
+
+@using (Ajax.BeginForm("ListarPorEvento", new AjaxOptions { UpdateTargetId = "resultado" }))
+{
+    <div class="row">
+        <div class="col-md-6">
+            <div class="col-md-12">
+                @Html.Label("Selecione um evento:")
+            </div>
+            <div class="col-md-8">
+                @Html.DropDownList("id", (SelectList)ViewBag.ListaEventos, "<Selecione>", new { @class = "form-control" })
+            </div>
+        </div>
+    </div>
+}
+<br />
+<div id="resultado"></div>
+
+@section rodape {
+    <div class="container">
+        <div class="alert alert-success">
+            FIM DA CONSULTA
+        </div>
+    </div>    
+}
+
+@section scripts {
+    <script type="text/javascript">
+            $(document).ready(function () {
+                $("#id").change(function () {
+                    var selecao = $("#id").val();
+                    $("#resultado").load("/Convidados/ListarPorEvento/" + selecao);
+                })
+            });
+    </script>
+}

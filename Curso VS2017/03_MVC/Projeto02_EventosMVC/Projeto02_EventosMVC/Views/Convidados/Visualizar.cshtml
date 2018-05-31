@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Projeto02_EventosMVC.Models.Convidado>
+
+@{
+    ViewBag.Title = "Visualizar";
+}
+
+<h2>Visualizar</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table table-striped">
+    <tr>
+        @*<th>
+            @Html.DisplayNameFor(model => model.IdEvento)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th></th>*@
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.IdEvento)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>*@
+        <td>
+            <button class="btn btn-info detalhes" data-id="@item.Id">
+                <i class="glyphicon glyphicon-book"></i>
+                Ver mensagem
+            </button>
+            @*@Html.ActionLink("Mostrar Mensagem", "MostrarMensagem", new { id=item.Id })*@
+        </td>
+    </tr>
+}
+
+</table>
+
+<div class="modal" id="modal"></div>
+
+@section scripts {
+    <script>
+        //$(function () { }); o mesmo que o comando abaixo
+        $(document).ready(function () {
+            $(".detalhes").click(function () {
+                var id = $(this).attr("data-id");
+                $("#modal").load("MostrarMensagem?id=" + id, function () {
+                    $("#modal").modal();
+                });
+            });
+        });
+    </script>    
+}

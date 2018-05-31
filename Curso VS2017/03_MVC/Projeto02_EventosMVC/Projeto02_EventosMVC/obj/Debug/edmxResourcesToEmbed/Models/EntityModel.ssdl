@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EventosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TBConvidados">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdEvento" Type="int" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TBEventos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Data" Type="datetime" Nullable="false" />
+    <Property Name="Descricao" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Responsavel" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Valor" Type="float" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_TBConvidados_TBEventos">
+    <End Role="TBEventos" Type="Self.TBEventos" Multiplicity="1" />
+    <End Role="TBConvidados" Type="Self.TBConvidados" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBEventos">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TBConvidados">
+        <PropertyRef Name="IdEvento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EventosModelStoreContainer">
+    <EntitySet Name="TBConvidados" EntityType="Self.TBConvidados" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBEventos" EntityType="Self.TBEventos" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_TBConvidados_TBEventos" Association="Self.FK_TBConvidados_TBEventos">
+      <End Role="TBEventos" EntitySet="TBEventos" />
+      <End Role="TBConvidados" EntitySet="TBConvidados" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

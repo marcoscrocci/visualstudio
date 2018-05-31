@@ -1,0 +1,7 @@
+C:\Users\no5117\Documents\Curso_VS2017\03_MVC\Projeto01_Lambda\Projeto01_Lambda\bin\Debug\Projeto01_Lambda.exe.config
+C:\Users\no5117\Documents\Curso_VS2017\03_MVC\Projeto01_Lambda\Projeto01_Lambda\bin\Debug\Projeto01_Lambda.exe
+C:\Users\no5117\Documents\Curso_VS2017\03_MVC\Projeto01_Lambda\Projeto01_Lambda\bin\Debug\Projeto01_Lambda.pdb
+C:\Users\no5117\Documents\Curso_VS2017\03_MVC\Projeto01_Lambda\Projeto01_Lambda\obj\Debug\Projeto01_Lambda.csprojResolveAssemblyReference.cache
+C:\Users\no5117\Documents\Curso_VS2017\03_MVC\Projeto01_Lambda\Projeto01_Lambda\obj\Debug\Projeto01_Lambda.csproj.CoreCompileInputs.cache
+C:\Users\no5117\Documents\Curso_VS2017\03_MVC\Projeto01_Lambda\Projeto01_Lambda\obj\Debug\Projeto01_Lambda.exe
+C:\Users\no5117\Documents\Curso_VS2017\03_MVC\Projeto01_Lambda\Projeto01_Lambda\obj\Debug\Projeto01_Lambda.pdb

@@ -1,0 +1,26 @@
+﻿@model Projeto02_EventosMVC.Models.Contato
+@{
+    Layout = null;
+}
+
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header alert-success">
+            <button type="button" class="close" data-dismiss="modal">
+                <span aria-hidden="true">x</span>
+                <span class="sr-only">Close</span>
+            </button>
+            <h4 class="modal-title">Detalhes da mensagem</h4>
+        </div>
+        <div class="modal-body">
+            <p>@Html.DisplayNameFor(m => m.Id) : @Html.DisplayFor(m => m.Id)</p>
+            <p>@Html.DisplayNameFor(m => m.DataContato) : @Html.DisplayFor(m => m.DataContato)</p>
+            <p>@Html.DisplayNameFor(m => m.Mensagem) : @Html.DisplayFor(m => m.Mensagem)</p>
+        </div>
+        <div class="modal-footer alert-info">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
+
+

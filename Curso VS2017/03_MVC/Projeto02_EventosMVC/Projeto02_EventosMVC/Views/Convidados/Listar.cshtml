@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Projeto02_EventosMVC.Models.EventoConvidadoViewModel>
+
+@{
+    ViewBag.Title = "Listar";
+}
+
+<h2>Listar</h2>
+
+
+<p>
+    @*@Html.ActionLink("Incluir Convidado", "Incluir")*@
+    @using (Html.BeginForm("Listar", "Convidados", FormMethod.Get))
+    {
+        <div class="row">
+            <div class="col-md-6">
+                <div class="col-md-12">
+                    @Html.Label("Selecione o evento:")
+                </div>
+                <div class="col-md-8">
+                    @Html.DropDownList("id", (SelectList)ViewBag.ListaEventos, "Todos", new { @class = "form-control" })
+                </div>
+                <div class="col-md-4">
+                    <input type="submit" value="Mostrar Convidados" class="btn btn-info" />
+                </div>
+            </div>
+        </div>
+    }
+</p>
+<table class="table table-striped">
+    <tr>
+        @*<th>
+            @Html.DisplayNameFor(model => model.IdEvento)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.DescricaoEvento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NomeConvidado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmailConvidado)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.IdEvento)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.DescricaoEvento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomeConvidado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmailConvidado)
+        </td>
+        <td>
+            @Html.ActionLink("Entrar em Contato", "RegistrarContato", new { email = item.EmailConvidado })
+            
+        </td>
+    </tr>
+}
+
+</table>

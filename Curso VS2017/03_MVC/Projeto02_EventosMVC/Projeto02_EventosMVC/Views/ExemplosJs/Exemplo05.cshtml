@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Exemplo05";
+}
+
+<h2>Exemplo05</h2>
+<div>
+    <form>
+        <input type="button" id="btn01" value="Mostrar Mensagem" />
+    </form>
+</div>
+
+@section scripts {
+    <script type="text/javascript">
+            $(document).ready(function () {
+                // Ao clicar no botão "btn01", apresentaremos uma mensagem
+                $("#btn01").click(function () {
+                    alert("Exemplo de uso do jQuery");
+                });
+            });
+    </script>    
+}

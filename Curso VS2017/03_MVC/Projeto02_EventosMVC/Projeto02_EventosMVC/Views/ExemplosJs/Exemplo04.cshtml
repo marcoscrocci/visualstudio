@@ -1,0 +1,46 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Exemplo04</title>
+    <style>
+        .erro {
+            border: 1px solid red;
+            background-color: lightpink;
+            color: red;
+            padding: 20px;
+            width: 100px;
+        }
+        .ok {
+            border: 1px solid green;
+            background-color: lightgreen;
+            color: green;
+            padding: 20px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div> 
+        <h1>Dados de um aluno</h1>
+        <form>
+            Nome:<br />
+            <input type="text" id="nome" size="20" /><br />
+            Idade:<br />
+            <input type="text" id="idade" size="3" /><br />
+            Curso:<br />
+            <select id="lista"></select><br /><br />
+            <input type="button" id="btnEnviar" value="Enviar" /><br /><br />
+            <div id="resposta"></div>
+        </form>
+    </div>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/alunos.js"></script>
+</body>
+</html>

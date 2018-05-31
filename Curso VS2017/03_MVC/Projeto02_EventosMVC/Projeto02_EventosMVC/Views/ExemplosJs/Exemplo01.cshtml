@@ -1,0 +1,50 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Exemplo01</title>
+</head>
+<body>
+    <div> 
+        <h1>Manutenção de Clientes</h1>
+        <form>
+            CNPJ:<br />
+            <input type="text" id="cnpj" size="20" /><br />
+            Nome:<br />
+            <input type="text" id="nome" size="30" /><br />
+            Email:<br />
+            <input type="email" id="email" size="30" /><br />
+            <br />
+            <input type="button" id="btnEnviar" value="Enviar" onclick="exibirDados();" />
+            <input type="button" id="btnEnviar2" value="Enviar - Unobtrusive" />
+        </form>
+    </div>
+
+    <script type="text/javascript">
+        function exibirDados() {
+            var cnpj = document.getElementById("cnpj").value;
+            var nome = document.getElementById("nome").value;
+            var email = document.getElementById("email").value;
+
+            // Vamos formar uma nova string contendo o resultado a ser apresentado para o usuário
+            var mensagem = "CNPJ: " + cnpj +
+                "\nNome: " + nome +
+                "\nEmail: " + email;
+
+            // Exibindo a mensagem na tela
+            alert(mensagem);
+        }
+
+        // Registramos o evento click do botão "btnEnviar2" para executar a função exibirDados
+        var botao = document.getElementById("btnEnviar2");
+        botao.addEventListener("click", exibirDados);
+    </script>
+
+</body>
+</html>
