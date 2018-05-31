@@ -1,0 +1,64 @@
+﻿@model Projeto02_AspNetCore.Models.Paciente
+
+@{
+    ViewData["Title"] = "IncluirPaciente";
+}
+
+@*<h2>IncluirPaciente</h2>*@
+
+<h4>Incluir Paciente</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="IncluirPaciente" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @*<div class="form-group">
+                <label asp-for="PacienteId" class="control-label"></label>
+                <input asp-for="PacienteId" class="form-control" />
+                <span asp-validation-for="PacienteId" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Telefone" class="control-label"></label>
+                <input asp-for="Telefone" class="form-control" />
+                <span asp-validation-for="Telefone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataNascimento" class="control-label"></label>
+                <input asp-for="DataNascimento" class="form-control" />
+                <span asp-validation-for="DataNascimento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Convenio" class="control-label"></label>
+                @*<input asp-for="Convenio" class="form-control" />*@
+                <select asp-for="Convenio" 
+                        asp-items="(SelectList)ViewBag.Convenios" 
+                        class="form-control">
+                </select>
+                <span asp-validation-for="Convenio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Foto" class="control-label"></label>
+                <input type="file" name="Foto" asp-for="Foto" class="form-control" />
+                <span asp-validation-for="Foto" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+                <label asp-for="FotoMimeType" class="control-label"></label>
+                <input asp-for="FotoMimeType" class="form-control" />
+                <span asp-validation-for="FotoMimeType" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <input type="submit" value="Incluir" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

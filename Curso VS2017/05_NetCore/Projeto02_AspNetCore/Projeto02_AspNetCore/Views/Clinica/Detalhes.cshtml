@@ -1,0 +1,83 @@
+﻿@model Projeto02_AspNetCore.Models.Paciente
+
+@{
+    Layout = null;
+    ViewData["Title"] = "Detalhes";
+}
+
+<h2>Detalhes</h2>
+
+<div class="modal-dialog">
+    @*<h4>Paciente</h4>
+        <hr />*@
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+                <span aria-hidden="true">x</span>
+                <span class="sr-only">Close</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <div style="text-align:center;">
+                <img src="@Url.Action("BuscarFoto", "Clinica",
+                         new { id=Model.PacienteId })"
+                    style="width:300px;" />
+            </div>
+            <dl class="dl-horizontal">
+                @*<dt>
+                    @Html.DisplayNameFor(model => model.Foto)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Foto)
+                </dd>*@
+                <dt>
+                    @Html.DisplayNameFor(model => model.PacienteId)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.PacienteId)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Nome)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Telefone)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Telefone)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.DataNascimento)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.DataNascimento)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Convenio)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Convenio)
+                </dd>
+                
+                @*<dt>
+                    @Html.DisplayNameFor(model => model.FotoMimeType)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.FotoMimeType)
+                </dd>*@
+            </dl>
+        
+        </div>
+        <div class="modal-footer"> 
+            <button type="button" class="btn btn-info" data-dismiss="modal">
+                Fechar
+            </button>
+        </div>
+    </div>
+</div>
+@*<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>*@

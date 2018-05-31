@@ -1,0 +1,9 @@
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto01_ConsoleApp\bin\Debug\netcoreapp2.0\Projeto01_ConsoleApp.deps.json
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto01_ConsoleApp\bin\Debug\netcoreapp2.0\Projeto01_ConsoleApp.dll
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto01_ConsoleApp\obj\Debug\netcoreapp2.0\Projeto01_ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto01_ConsoleApp\obj\Debug\netcoreapp2.0\Projeto01_ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto01_ConsoleApp\obj\Debug\netcoreapp2.0\Projeto01_ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto01_ConsoleApp\obj\Debug\netcoreapp2.0\Projeto01_ConsoleApp.AssemblyInfo.cs
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto01_ConsoleApp\bin\Debug\netcoreapp2.0\Projeto01_ConsoleApp.pdb
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto01_ConsoleApp\obj\Debug\netcoreapp2.0\Projeto01_ConsoleApp.dll
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto01_ConsoleApp\obj\Debug\netcoreapp2.0\Projeto01_ConsoleApp.pdb

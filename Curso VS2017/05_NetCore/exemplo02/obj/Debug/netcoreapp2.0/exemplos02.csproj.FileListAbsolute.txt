@@ -1,0 +1,10 @@
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplos02\mvc_app\exemplos02.deps.json
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplos02\mvc_app\exemplos02.runtimeconfig.json
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplos02\mvc_app\exemplos02.runtimeconfig.dev.json
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplos02\mvc_app\exemplos02.dll
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplos02\mvc_app\exemplos02.pdb
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplos02\obj\Debug\netcoreapp2.0\exemplos02.csproj.CoreCompileInputs.cache
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplos02\obj\Debug\netcoreapp2.0\exemplos02.AssemblyInfoInputs.cache
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplos02\obj\Debug\netcoreapp2.0\exemplos02.AssemblyInfo.cs
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplos02\obj\Debug\netcoreapp2.0\exemplos02.dll
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplos02\obj\Debug\netcoreapp2.0\exemplos02.pdb

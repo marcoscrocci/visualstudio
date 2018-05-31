@@ -1,0 +1,10 @@
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplo01\console_app\exemplo01.deps.json
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplo01\console_app\exemplo01.runtimeconfig.json
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplo01\console_app\exemplo01.runtimeconfig.dev.json
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplo01\console_app\exemplo01.dll
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplo01\console_app\exemplo01.pdb
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplo01\obj\Debug\netcoreapp2.0\exemplo01.csproj.CoreCompileInputs.cache
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplo01\obj\Debug\netcoreapp2.0\exemplo01.AssemblyInfoInputs.cache
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplo01\obj\Debug\netcoreapp2.0\exemplo01.AssemblyInfo.cs
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplo01\obj\Debug\netcoreapp2.0\exemplo01.dll
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\exemplo01\obj\Debug\netcoreapp2.0\exemplo01.pdb

@@ -1,0 +1,56 @@
+﻿@model Projeto02_AspNetCore.Models.Tratamento
+@{
+    Layout = null;
+}
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="row">
+            <div class="col-md-12">
+                <form asp-action="IncluirTratamento">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">x</span>
+                            <span class="sr-only">Close</span>
+                        </button>
+                        <h4 class="modal-title">Incluir Tratamento</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        @*<div class="form-group">
+                                <label asp-for="TratamentoId" class="control-label"></label>
+                                <input asp-for="TratamentoId" class="form-control" />
+                                <span asp-validation-for="TratamentoId" class="text-danger"></span>
+                            </div>*@
+                        <div class="form-group">
+                            <label asp-for="PacienteId" class="control-label"></label>
+                            <input asp-for="PacienteId" class="form-control" />
+                            <span asp-validation-for="PacienteId" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Descricao" class="control-label"></label>
+                            <input asp-for="Descricao" class="form-control" />
+                            <span asp-validation-for="Descricao" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Duracao" class="control-label"></label>
+                            <input asp-for="Duracao" class="form-control" />
+                            <span asp-validation-for="Duracao" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Preco" class="control-label"></label>
+                            <input asp-for="Preco" class="form-control" />
+                            <span asp-validation-for="Preco" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="submit" value="Incluir" class="btn btn-info" />
+                        <input type="button" value="Cancelar" class="btn btn-danger" data-dismiss="modal" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

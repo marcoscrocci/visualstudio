@@ -1,0 +1,13 @@
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto02_Aplicacao\bin\Debug\netcoreapp2.0\Projeto02_Aplicacao.deps.json
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto02_Aplicacao\bin\Debug\netcoreapp2.0\Projeto02_Aplicacao.runtimeconfig.json
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto02_Aplicacao\bin\Debug\netcoreapp2.0\Projeto02_Aplicacao.runtimeconfig.dev.json
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto02_Aplicacao\bin\Debug\netcoreapp2.0\Projeto02_Aplicacao.dll
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto02_Aplicacao\bin\Debug\netcoreapp2.0\Projeto02_Aplicacao.pdb
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto02_Aplicacao\bin\Debug\netcoreapp2.0\Projeto01_ConsoleApp.dll
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto02_Aplicacao\bin\Debug\netcoreapp2.0\Projeto01_ConsoleApp.pdb
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto02_Aplicacao\obj\Debug\netcoreapp2.0\Projeto02_Aplicacao.csprojResolveAssemblyReference.cache
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto02_Aplicacao\obj\Debug\netcoreapp2.0\Projeto02_Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto02_Aplicacao\obj\Debug\netcoreapp2.0\Projeto02_Aplicacao.AssemblyInfoInputs.cache
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto02_Aplicacao\obj\Debug\netcoreapp2.0\Projeto02_Aplicacao.AssemblyInfo.cs
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto02_Aplicacao\obj\Debug\netcoreapp2.0\Projeto02_Aplicacao.dll
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto01_ConsoleApp\Projeto02_Aplicacao\obj\Debug\netcoreapp2.0\Projeto02_Aplicacao.pdb
