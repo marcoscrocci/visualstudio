@@ -1,0 +1,10 @@
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto04\Projeto04_AppClientes\bin\Debug\Projeto04_AppClientes.exe.config
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto04\Projeto04_AppClientes\bin\Debug\Projeto04_AppClientes.exe
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto04\Projeto04_AppClientes\bin\Debug\Projeto04_AppClientes.pdb
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto04\Projeto04_AppClientes\obj\Debug\Projeto04_AppClientes.csprojResolveAssemblyReference.cache
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto04\Projeto04_AppClientes\obj\Debug\Projeto04_AppClientes.Properties.Resources.resources
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto04\Projeto04_AppClientes\obj\Debug\Projeto04_AppClientes.csproj.GenerateResource.Cache
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto04\Projeto04_AppClientes\obj\Debug\Projeto04_AppClientes.csproj.CoreCompileInputs.cache
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto04\Projeto04_AppClientes\obj\Debug\Projeto04_AppClientes.exe
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto04\Projeto04_AppClientes\obj\Debug\Projeto04_AppClientes.pdb
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto04\Projeto04_AppClientes\obj\Debug\Projeto04_AppClientes.FormCadastro.resources

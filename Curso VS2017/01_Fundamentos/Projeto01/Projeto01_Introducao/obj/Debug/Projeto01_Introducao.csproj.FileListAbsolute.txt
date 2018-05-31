@@ -1,0 +1,7 @@
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto01\Projeto01_Introducao\obj\Debug\Projeto01_Introducao.csprojResolveAssemblyReference.cache
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto01\Projeto01_Introducao\obj\Debug\Projeto01_Introducao.csproj.CoreCompileInputs.cache
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto01\Projeto01_Introducao\bin\Debug\Introducao.exe.config
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto01\Projeto01_Introducao\bin\Debug\Introducao.exe
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto01\Projeto01_Introducao\bin\Debug\Introducao.pdb
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto01\Projeto01_Introducao\obj\Debug\Introducao.exe
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto01\Projeto01_Introducao\obj\Debug\Introducao.pdb

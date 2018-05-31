@@ -1,0 +1,7 @@
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto02\Projeto02_Metodos\bin\Debug\Projeto02_Metodos.exe.config
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto02\Projeto02_Metodos\bin\Debug\Projeto02_Metodos.exe
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto02\Projeto02_Metodos\bin\Debug\Projeto02_Metodos.pdb
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto02\Projeto02_Metodos\obj\Debug\Projeto02_Metodos.csprojResolveAssemblyReference.cache
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto02\Projeto02_Metodos\obj\Debug\Projeto02_Metodos.csproj.CoreCompileInputs.cache
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto02\Projeto02_Metodos\obj\Debug\Projeto02_Metodos.exe
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto02\Projeto02_Metodos\obj\Debug\Projeto02_Metodos.pdb

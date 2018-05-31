@@ -1,0 +1,5 @@
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto03\Projeto03_BibliotecaClasses\obj\Debug\Projeto03_BibliotecaClasses.csproj.CoreCompileInputs.cache
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto03\Projeto03_BibliotecaClasses\bin\Debug\BibliotecaClasses.dll
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto03\Projeto03_BibliotecaClasses\bin\Debug\BibliotecaClasses.pdb
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto03\Projeto03_BibliotecaClasses\obj\Debug\BibliotecaClasses.dll
+C:\Users\no5117\Documents\Curso_VS2017\01_Fundamentos\Projeto03\Projeto03_BibliotecaClasses\obj\Debug\BibliotecaClasses.pdb
