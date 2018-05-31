@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LayoutMaster.master.cs" Inherits="Projeto02_CadastroEventos.LayoutMaster" %>
+<%@ Import Namespace="System.Web.Optimization" %>
+<%@ Register Src="~/UsuarioUC.ascx" TagPrefix="uc1" TagName="UsuarioUC" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <%:
+        Styles.Render("~/estilos")
+    %>
+    <%--<link href="Css/Estilos.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />--%>    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <div>
+            <div class="alert-heading">
+                <div class="titulo-master">
+                    <h1>Cabeçalho da MasterPage</h1>
+                </div>
+                <div>
+                    <asp:HyperLink ID="menuHyperLink" runat="server" NavigateUrl="~/Menu">Voltar para Menu</asp:HyperLink> |
+                    <asp:HyperLink ID="indexHyperLink" runat="server" NavigateUrl="~/Index">Página inicial</asp:HyperLink>
+                    <!-- Usuário User Control -->                
+                    <uc1:UsuarioUC ID="UsuarioUC1" runat="server" />                
+                    <br />
+                </div>
+                <div>
+                    <asp:Label ID="usuarioLabel1" runat="server"></asp:Label>                
+                </div>
+                <hr />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+    </form>
+</body>
+</html>

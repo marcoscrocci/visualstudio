@@ -1,0 +1,6 @@
+C:\Users\no5117\Documents\Curso_VS2017\02_PlataformaWeb\Projeto02_CadastroEventos\AcessoDados\bin\Debug\AcessoDados.dll
+C:\Users\no5117\Documents\Curso_VS2017\02_PlataformaWeb\Projeto02_CadastroEventos\AcessoDados\bin\Debug\AcessoDados.pdb
+C:\Users\no5117\Documents\Curso_VS2017\02_PlataformaWeb\Projeto02_CadastroEventos\AcessoDados\obj\Debug\AcessoDados.csprojResolveAssemblyReference.cache
+C:\Users\no5117\Documents\Curso_VS2017\02_PlataformaWeb\Projeto02_CadastroEventos\AcessoDados\obj\Debug\AcessoDados.csproj.CoreCompileInputs.cache
+C:\Users\no5117\Documents\Curso_VS2017\02_PlataformaWeb\Projeto02_CadastroEventos\AcessoDados\obj\Debug\AcessoDados.dll
+C:\Users\no5117\Documents\Curso_VS2017\02_PlataformaWeb\Projeto02_CadastroEventos\AcessoDados\obj\Debug\AcessoDados.pdb

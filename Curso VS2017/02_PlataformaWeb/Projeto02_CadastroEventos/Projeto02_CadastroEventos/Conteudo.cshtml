@@ -1,0 +1,38 @@
+﻿@{
+    Layout = null;
+}
+@using Projeto02_CadastroEventos.Models;
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Conteúdo</title>
+    <link href="Css/Estilos.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />    
+</head>
+<body>
+    <div>
+        <p>Hoje é @DateTime.Now</p>
+        <h1>Lista de Eventos (usando Razor)</h1>
+        <div class="container">
+            <table class="table table-striped">
+                <tr>
+                    <th>Código</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                </tr>
+                @foreach (var item in Colecoes.ListarEventos())
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Descricao</td>
+                        <td>@item.Valor</td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</body>
+</html>

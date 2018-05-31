@@ -1,0 +1,27 @@
+﻿h1 {
+    color:red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+.borda-externa {
+    /*margin-left: 40px;
+    margin-right: 40px;
+    margin-top:40px;
+    margin-bottom: 40px;*/
+    margin: 40px;
+}
+
+.borda-form {
+    background-color:rgb(196, 236, 255);
+    padding: 25px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.margem-superior {
+    margin-top: 80px;
+}
+
+.titulo-master {
+    text-align:center;
+}
