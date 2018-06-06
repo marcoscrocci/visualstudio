@@ -10,15 +10,3 @@ C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto02_AspNetCore\Projeto02
 C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto02_AspNetCore\Projeto02_AspNetCore\obj\Debug\netcoreapp2.0\Projeto02_AspNetCore.AssemblyInfo.cs
 C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto02_AspNetCore\Projeto02_AspNetCore\obj\Debug\netcoreapp2.0\Projeto02_AspNetCore.dll
 C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto02_AspNetCore\Projeto02_AspNetCore\obj\Debug\netcoreapp2.0\Projeto02_AspNetCore.pdb
-C:\Users\marco\OneDrive\Projetos\Visual Studio\Impacta\05_NetCore\Projeto02_AspNetCore\Projeto02_AspNetCore\bin\Debug\netcoreapp2.0\Projeto02_AspNetCore.deps.json
-C:\Users\marco\OneDrive\Projetos\Visual Studio\Impacta\05_NetCore\Projeto02_AspNetCore\Projeto02_AspNetCore\bin\Debug\netcoreapp2.0\Projeto02_AspNetCore.runtimeconfig.json
-C:\Users\marco\OneDrive\Projetos\Visual Studio\Impacta\05_NetCore\Projeto02_AspNetCore\Projeto02_AspNetCore\bin\Debug\netcoreapp2.0\Projeto02_AspNetCore.runtimeconfig.dev.json
-C:\Users\marco\OneDrive\Projetos\Visual Studio\Impacta\05_NetCore\Projeto02_AspNetCore\Projeto02_AspNetCore\bin\Debug\netcoreapp2.0\Projeto02_AspNetCore.dll
-C:\Users\marco\OneDrive\Projetos\Visual Studio\Impacta\05_NetCore\Projeto02_AspNetCore\Projeto02_AspNetCore\bin\Debug\netcoreapp2.0\Projeto02_AspNetCore.pdb
-C:\Users\marco\OneDrive\Projetos\Visual Studio\Impacta\05_NetCore\Projeto02_AspNetCore\Projeto02_AspNetCore\obj\Debug\netcoreapp2.0\Projeto02_AspNetCore.csprojResolveAssemblyReference.cache
-C:\Users\marco\OneDrive\Projetos\Visual Studio\Impacta\05_NetCore\Projeto02_AspNetCore\Projeto02_AspNetCore\obj\Debug\netcoreapp2.0\Projeto02_AspNetCore.csproj.CoreCompileInputs.cache
-C:\Users\marco\OneDrive\Projetos\Visual Studio\Impacta\05_NetCore\Projeto02_AspNetCore\Projeto02_AspNetCore\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
-C:\Users\marco\OneDrive\Projetos\Visual Studio\Impacta\05_NetCore\Projeto02_AspNetCore\Projeto02_AspNetCore\obj\Debug\netcoreapp2.0\Projeto02_AspNetCore.AssemblyInfoInputs.cache
-C:\Users\marco\OneDrive\Projetos\Visual Studio\Impacta\05_NetCore\Projeto02_AspNetCore\Projeto02_AspNetCore\obj\Debug\netcoreapp2.0\Projeto02_AspNetCore.AssemblyInfo.cs
-C:\Users\marco\OneDrive\Projetos\Visual Studio\Impacta\05_NetCore\Projeto02_AspNetCore\Projeto02_AspNetCore\obj\Debug\netcoreapp2.0\Projeto02_AspNetCore.dll
-C:\Users\marco\OneDrive\Projetos\Visual Studio\Impacta\05_NetCore\Projeto02_AspNetCore\Projeto02_AspNetCore\obj\Debug\netcoreapp2.0\Projeto02_AspNetCore.pdb

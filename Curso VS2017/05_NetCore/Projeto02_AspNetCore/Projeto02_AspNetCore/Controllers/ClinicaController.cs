@@ -6,14 +6,16 @@ using Microsoft.AspNetCore.Mvc;
 using Projeto02_AspNetCore.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Projeto02_AspNetCore.Controllers
 {
+    [Authorize]
     public class ClinicaController : Controller
     {
         private ClinicaContext Context { get; set; }
 
-        // O contexto será injetado pelo MVC no sua execução
+        // O contexto será injetado pelo MVC no sua execução        
         public ClinicaController(ClinicaContext context)
         {
             this.Context = context;
@@ -34,6 +36,7 @@ namespace Projeto02_AspNetCore.Controllers
             };
         }
 
+        
         public IActionResult IncluirPaciente()
         {
             ViewBag.Convenios = new SelectList(ListaConvenios(), "Descricao", "Descricao");
@@ -93,6 +96,24 @@ namespace Projeto02_AspNetCore.Controllers
             return View(tratamento);
         }
 
+        [HttpPost]
+        public IActionResult IncluirTratamento(int id, Tratamento tratamento)
+        {
+            Context.Add<Tratamento>(tratamento);
+            Context.SaveChanges();
+
+            return RedirectToAction("ListarPacientes");
+        }
+
+        public IActionResult ListarTratamentos(int id)
+        {
+            var lista = Context
+                .Tratamentos
+                .Where(p => p.PacienteId == id)
+                .ToList<Tratamento>();
+
+            return View(lista);
+        }
 
     }
 }

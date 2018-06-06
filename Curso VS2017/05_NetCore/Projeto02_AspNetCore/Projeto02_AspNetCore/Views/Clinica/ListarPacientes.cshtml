@@ -4,7 +4,7 @@
     ViewData["Title"] = "ListarPacientes";
 }
 
-<h2>ListarPacientes</h2>
+<h2>Lista de Pacientes</h2>
 
 <p>
     <a asp-action="IncluirPaciente">Incluir Novo Paciente</a>
@@ -70,9 +70,10 @@
                 <button class="btn btn-info tratamentos" data-id="@item.PacienteId">
                     <i class="glyphicon glyphicon-list-alt"></i>
                 </button>
-                @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+                <button class="btn btn-info lista" data-id="@item.PacienteId">
+                    <i class="glyphicon glyphicon-list"></i>
+                </button>
+                
             </td>
         </tr>
 }
@@ -94,6 +95,13 @@
             $(".tratamentos").click(function () {
                 var id = $(this).attr("data-id");
                 $("#modal").load("IncluirTratamento?id=" + id, function () {
+                    $("#modal").modal();
+                });
+            });
+
+            $(".lista").click(function () {
+                var id = $(this).attr("data-id");
+                $("#modal").load("ListarTratamentos?id=" + id, function () {
                     $("#modal").modal();
                 });
             });

@@ -26,23 +26,37 @@ namespace Projeto02_AspNetCore
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
+            //services.AddDbContext<ApplicationDbContext>(options =>
+            //    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDbContext<UsuariosDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddDbContext<ClinicaContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("ClinicaConnection")));
 
-            services.AddIdentity<ApplicationUser, IdentityRole>(
-                options => {
-                    options.Password.RequireDigit = true;
-                    options.Password.RequiredLength = 8;
-                    options.Password.RequiredUniqueChars = 2;
-                    options.Password.RequireLowercase = true;
-                    options.Password.RequireNonAlphanumeric = true;
-                    options.Password.RequireUppercase = true;
-                })
-                .AddEntityFrameworkStores<ApplicationDbContext>()
+            //services.AddIdentity<ApplicationUser, IdentityRole>(
+            //    options => {
+            //        options.Password.RequireDigit = true;
+            //        options.Password.RequiredLength = 8;
+            //        options.Password.RequiredUniqueChars = 2;
+            //        options.Password.RequireLowercase = true;
+            //        options.Password.RequireNonAlphanumeric = true;
+            //        options.Password.RequireUppercase = true;
+            //    })
+            //    .AddEntityFrameworkStores<ApplicationDbContext>()
+            //    .AddDefaultTokenProviders();
+
+            services.AddIdentity<Usuario, IdentityRole>()
+                .AddEntityFrameworkStores<UsuariosDbContext>()
                 .AddDefaultTokenProviders();
+
+            // Adicionamos os actions para Login e Logout
+            services.ConfigureApplicationCookie(options => 
+            {
+                options.LoginPath = "/Usuarios/Login";
+                options.LogoutPath = "/Usuarios/Logout";
+            });
 
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();

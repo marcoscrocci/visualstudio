@@ -13116,27 +13116,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marco\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\no5117\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\marco\\OneDrive\\Projetos\\Visual Studio\\Impacta\\05_NetCore\\Projeto02_AspNetCore\\Projeto02_AspNetCore\\Projeto02_AspNetCore.csproj",
+      "projectUniqueName": "C:\\Users\\no5117\\Documents\\Curso_VS2017\\05_NetCore\\Projeto02_AspNetCore\\Projeto02_AspNetCore\\Projeto02_AspNetCore.csproj",
       "projectName": "Projeto02_AspNetCore",
-      "projectPath": "C:\\Users\\marco\\OneDrive\\Projetos\\Visual Studio\\Impacta\\05_NetCore\\Projeto02_AspNetCore\\Projeto02_AspNetCore\\Projeto02_AspNetCore.csproj",
-      "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marco\\OneDrive\\Projetos\\Visual Studio\\Impacta\\05_NetCore\\Projeto02_AspNetCore\\Projeto02_AspNetCore\\obj\\",
+      "projectPath": "C:\\Users\\no5117\\Documents\\Curso_VS2017\\05_NetCore\\Projeto02_AspNetCore\\Projeto02_AspNetCore\\Projeto02_AspNetCore.csproj",
+      "packagesPath": "C:\\Users\\no5117\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\no5117\\Documents\\Curso_VS2017\\05_NetCore\\Projeto02_AspNetCore\\Projeto02_AspNetCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\no5117\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -13159,24 +13159,24 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "[2.0.0, )"
-          },
           "Microsoft.EntityFrameworkCore.Tools": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "[2.0.0, )",
-            "autoReferenced": true
+            "version": "2.0.0"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "2.0.0"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "2.0.0",
+            "autoReferenced": true
+          },
+          "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "2.0.0"
           }
         },
         "imports": [
