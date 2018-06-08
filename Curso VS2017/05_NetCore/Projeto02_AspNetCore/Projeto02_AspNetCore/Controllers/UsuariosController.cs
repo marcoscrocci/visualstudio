@@ -57,14 +57,14 @@ namespace Projeto02_AspNetCore.Controllers
                     else
                     {
                         ViewBag.Erro = result.Errors.FirstOrDefault().Description;
-                        View("Error");
+                        return View("Error");
                     }
 
                 }
                 catch (Exception ex)
                 {
                     ViewBag.Erro = ex.Message;
-                    View("Error");
+                    return View("Error");
                 }
 
             }
@@ -105,6 +105,12 @@ namespace Projeto02_AspNetCore.Controllers
                     }
 
                 }
+                else
+                {
+                    ModelState.AddModelError(string.Empty, "Usuário ou senha inválido(s).");
+                    return View(model);
+                }
+
             }
 
             return View(model);

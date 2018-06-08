@@ -1,0 +1,11 @@
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto03_ConveniosWS\Projeto03_ConveniosWS\bin\Debug\netcoreapp2.0\Projeto03_ConveniosWS.deps.json
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto03_ConveniosWS\Projeto03_ConveniosWS\bin\Debug\netcoreapp2.0\Projeto03_ConveniosWS.runtimeconfig.json
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto03_ConveniosWS\Projeto03_ConveniosWS\bin\Debug\netcoreapp2.0\Projeto03_ConveniosWS.runtimeconfig.dev.json
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto03_ConveniosWS\Projeto03_ConveniosWS\bin\Debug\netcoreapp2.0\Projeto03_ConveniosWS.dll
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto03_ConveniosWS\Projeto03_ConveniosWS\bin\Debug\netcoreapp2.0\Projeto03_ConveniosWS.pdb
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto03_ConveniosWS\Projeto03_ConveniosWS\obj\Debug\netcoreapp2.0\Projeto03_ConveniosWS.csprojResolveAssemblyReference.cache
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto03_ConveniosWS\Projeto03_ConveniosWS\obj\Debug\netcoreapp2.0\Projeto03_ConveniosWS.csproj.CoreCompileInputs.cache
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto03_ConveniosWS\Projeto03_ConveniosWS\obj\Debug\netcoreapp2.0\Projeto03_ConveniosWS.AssemblyInfoInputs.cache
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto03_ConveniosWS\Projeto03_ConveniosWS\obj\Debug\netcoreapp2.0\Projeto03_ConveniosWS.AssemblyInfo.cs
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto03_ConveniosWS\Projeto03_ConveniosWS\obj\Debug\netcoreapp2.0\Projeto03_ConveniosWS.dll
+C:\Users\no5117\Documents\Curso_VS2017\05_NetCore\Projeto03_ConveniosWS\Projeto03_ConveniosWS\obj\Debug\netcoreapp2.0\Projeto03_ConveniosWS.pdb

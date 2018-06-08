@@ -7,18 +7,31 @@ using Projeto02_AspNetCore.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Authorization;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using Newtonsoft.Json;
 
 namespace Projeto02_AspNetCore.Controllers
 {
     [Authorize]
     public class ClinicaController : Controller
     {
+        HttpClient client;
+
+
         private ClinicaContext Context { get; set; }
 
         // O contexto será injetado pelo MVC no sua execução        
         public ClinicaController(ClinicaContext context)
         {
             this.Context = context;
+
+            if (client == null)
+            {
+                client = new HttpClient();
+                client.BaseAddress = new Uri("http://localhost:49956/");
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            }
         }
 
         public IActionResult Index()
@@ -26,7 +39,7 @@ namespace Projeto02_AspNetCore.Controllers
             return View();
         }
 
-        private List<Convenio> ListaConvenios()
+        /*private List<Convenio> ListaConvenios()
         {
             return new List<Convenio>()
             {
@@ -34,12 +47,30 @@ namespace Projeto02_AspNetCore.Controllers
                 new Convenio() { Codigo = 20, Descricao = "Notredame" },
                 new Convenio() { Codigo = 30, Descricao = "Sul America" }
             };
-        }
+        }*/
 
+        private static List<Convenio> listaConvenios;
         
-        public IActionResult IncluirPaciente()
+        public async Task<IActionResult> IncluirPaciente()
         {
-            ViewBag.Convenios = new SelectList(ListaConvenios(), "Descricao", "Descricao");
+            HttpResponseMessage response =
+                client.GetAsync("api/convenios").Result;
+
+            if (response.IsSuccessStatusCode)
+            {
+                var resultado = await
+                    response.Content.ReadAsStringAsync();
+
+                var lista = JsonConvert
+                    .DeserializeObject <Convenio[]>(resultado)
+                    .ToList<Convenio>();
+
+                listaConvenios = lista;
+
+                ViewBag.Convenios = new SelectList(listaConvenios, "Descricao", "Descricao");
+            }
+
+            //ViewBag.Convenios = new SelectList(ListaConvenios(), "Descricao", "Descricao");
             return View();
         }
 
@@ -57,7 +88,8 @@ namespace Projeto02_AspNetCore.Controllers
                 return RedirectToAction("ListarPacientes");
             }
 
-            ViewBag.Convenios = new SelectList(ListaConvenios(), "Descricao", "Descricao");
+            //ViewBag.Convenios = new SelectList(ListaConvenios(), "Descricao", "Descricao");
+            ViewBag.Convenios = new SelectList(listaConvenios, "Descricao", "Descricao");
             return View();
         }
 
