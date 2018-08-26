@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    @DateTime.Now.ToLongDateString()
+</div>
+<div>
+    @System.Globalization.CultureInfo.CurrentUICulture
+</div>
+
+<h2>@SR["Controle Financeiro"]</h2>
+<ul>
+    <li><a asp-controller="TipoContas" asp-action="Index">@SR["Listar"] @SR["Tipos de Conta"]</a></li>
+    <li><a asp-controller="Contas" asp-action="Index">@SR["Listar"] @SR["Contas"]</a></li>
+</ul>

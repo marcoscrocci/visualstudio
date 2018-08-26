@@ -1,0 +1,43 @@
+﻿@model ControleFinanceiroWeb.Models.Conta
+
+@{
+    ViewData["Title"] = @SR["Excluir"];
+}
+
+<h2>@SR["Excluir"] @SR["Conta"]</h2>
+
+<h3>@SR["Tem certeza de que deseja excluir isso?"]</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Titulo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SaldoInicial)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SaldoInicial)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Observacoes)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Observacoes)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoContaInfo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TipoContaInfo.Nome)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        @Html.Partial("~/Views/Shared/_ConfirmarCancelarVoltar.cshtml")
+    </form>
+</div>

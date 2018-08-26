@@ -1,0 +1,84 @@
+{
+  "_args": [
+    [
+      "jquery-validation-globalize@0.1.1",
+      "C:\\Marcos\\Projetos\\Visual Studio\\ControleFinanceiro\\ControleFinanceiroWeb"
+    ]
+  ],
+  "_from": "jquery-validation-globalize@0.1.1",
+  "_id": "jquery-validation-globalize@0.1.1",
+  "_inCache": true,
+  "_location": "/jquery-validation-globalize",
+  "_npmUser": {
+    "email": "johnny_reilly@hotmail.com",
+    "name": "johnnyreilly"
+  },
+  "_npmVersion": "1.4.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "jquery-validation-globalize",
+    "raw": "jquery-validation-globalize@0.1.1",
+    "rawSpec": "0.1.1",
+    "scope": null,
+    "spec": "0.1.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jquery-validation-globalize/-/jquery-validation-globalize-0.1.1.tgz",
+  "_shasum": "678fc273b4bc6a4373c2655892861d72fe2d1480",
+  "_shrinkwrap": null,
+  "_spec": "jquery-validation-globalize@0.1.1",
+  "_where": "C:\\Marcos\\Projetos\\Visual Studio\\ControleFinanceiro\\ControleFinanceiroWeb",
+  "author": {
+    "email": "johnny_reilly@hotmail.com",
+    "name": "johnnyreilly"
+  },
+  "bugs": {
+    "url": "https://github.com/johnnyreilly/jquery-validation-globalize/issues"
+  },
+  "dependencies": {},
+  "description": "An extension to the jQuery Validation Plugin which makes it use Globalize.js for number and date parsing (enabling simple internationalized validation)",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-qunit": "^1.2.1",
+    "gulp-util": "^3.0.6"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "shasum": "678fc273b4bc6a4373c2655892861d72fe2d1480",
+    "tarball": "https://registry.npmjs.org/jquery-validation-globalize/-/jquery-validation-globalize-0.1.1.tgz"
+  },
+  "homepage": "https://github.com/johnnyreilly/jquery-validation-globalize",
+  "installable": true,
+  "keywords": [
+    "globalization",
+    "globalize",
+    "i18n",
+    "internationalization",
+    "jquery",
+    "jquery-validate",
+    "validation"
+  ],
+  "license": "MIT",
+  "main": "jquery.validate.globalize.js",
+  "maintainers": [
+    {
+      "name": "johnnyreilly",
+      "email": "johnny_reilly@hotmail.com"
+    }
+  ],
+  "name": "jquery-validation-globalize",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnnyreilly/jquery-validation-globalize.git"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "version": "0.1.1"
+}

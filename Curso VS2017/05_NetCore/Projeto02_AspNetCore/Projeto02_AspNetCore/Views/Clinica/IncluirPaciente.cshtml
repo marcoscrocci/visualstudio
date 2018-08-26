@@ -34,7 +34,6 @@
             </div>
             <div class="form-group">
                 <label asp-for="Convenio" class="control-label"></label>
-                @*<input asp-for="Convenio" class="form-control" />*@
                 <select asp-for="Convenio" 
                         asp-items="(SelectList)ViewBag.Convenios" 
                         class="form-control">

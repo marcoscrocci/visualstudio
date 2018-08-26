@@ -13,7 +13,7 @@ using Newtonsoft.Json;
 
 namespace Projeto02_AspNetCore.Controllers
 {
-    [Authorize]
+   
     public class ClinicaController : Controller
     {
         HttpClient client;
@@ -39,7 +39,7 @@ namespace Projeto02_AspNetCore.Controllers
             return View();
         }
 
-        /*private List<Convenio> ListaConvenios()
+        private List<Convenio> ListaConvenios()
         {
             return new List<Convenio>()
             {
@@ -47,13 +47,14 @@ namespace Projeto02_AspNetCore.Controllers
                 new Convenio() { Codigo = 20, Descricao = "Notredame" },
                 new Convenio() { Codigo = 30, Descricao = "Sul America" }
             };
-        }*/
+        }
 
         private static List<Convenio> listaConvenios;
         
         public async Task<IActionResult> IncluirPaciente()
         {
-            HttpResponseMessage response =
+            // Usando WS
+            /*HttpResponseMessage response =
                 client.GetAsync("api/convenios").Result;
 
             if (response.IsSuccessStatusCode)
@@ -68,9 +69,10 @@ namespace Projeto02_AspNetCore.Controllers
                 listaConvenios = lista;
 
                 ViewBag.Convenios = new SelectList(listaConvenios, "Descricao", "Descricao");
-            }
+            }*/
 
-            //ViewBag.Convenios = new SelectList(ListaConvenios(), "Descricao", "Descricao");
+            ViewBag.Convenios = new SelectList(ListaConvenios(), "Descricao", "Descricao");
+
             return View();
         }
 
@@ -88,8 +90,8 @@ namespace Projeto02_AspNetCore.Controllers
                 return RedirectToAction("ListarPacientes");
             }
 
-            //ViewBag.Convenios = new SelectList(ListaConvenios(), "Descricao", "Descricao");
-            ViewBag.Convenios = new SelectList(listaConvenios, "Descricao", "Descricao");
+            ViewBag.Convenios = new SelectList(ListaConvenios(), "Descricao", "Descricao");
+            //ViewBag.Convenios = new SelectList(listaConvenios, "Descricao", "Descricao");
             return View();
         }
 

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ControleFinanceiroWeb.Models.Conta>
+
+@{
+    ViewData["Title"] = "Índice";
+}
+
+<h2>@SR["Lista"] @SR["de"] @SR["Contas"]</h2>
+
+<p>
+    <a asp-action="Create">@SR["Criar uma Conta"]</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Titulo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SaldoInicial)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Observacoes)
+                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TipoContaInfo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SaldoInicial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Observacoes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoContaInfo.Nome)
+            </td>
+            <td>
+                @Html.Partial("~/Views/Shared/_EditarDetalhesExcluir.cshtml", @item)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

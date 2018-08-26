@@ -1,0 +1,39 @@
+﻿@model ControleFinanceiroWeb.Models.Conta
+
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<h2>@SR["Detalhes da Conta"]</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Titulo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SaldoInicial)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SaldoInicial)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Observacoes)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Observacoes)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoContaInfo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TipoContaInfo.Nome)
+        </dd>
+    </dl>
+</div>
+
+@Html.Partial("~/Views/Shared/_EditarCancelarVoltar.cshtml", @Model)

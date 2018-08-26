@@ -1,0 +1,2 @@
+Pendências do sistema de Controle Financeiro:
+- Valor não está aceitando "vírgula" para casas decimais e ao colocar "ponto" o sistema grava o valor errado. Exemplo: Colocando 100.56, o sistema grava 10.056,00.

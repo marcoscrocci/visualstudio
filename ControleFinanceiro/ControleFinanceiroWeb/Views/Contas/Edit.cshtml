@@ -1,0 +1,44 @@
+﻿@model ControleFinanceiroWeb.Models.Conta
+
+@{
+    ViewData["Title"] = @SR["Editar"];
+}
+
+<h2>@SR["Editar"] @SR["Conta"]</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Titulo" class="control-label"></label>
+                <input asp-for="Titulo" class="form-control" />
+                <span asp-validation-for="Titulo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SaldoInicial" class="control-label"></label>
+                <input asp-for="SaldoInicial" class="form-control" />
+                <span asp-validation-for="SaldoInicial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoContaId" class="control-label"></label>
+                <select asp-for="TipoContaId" class="form-control" asp-items="ViewBag.TipoContaId"></select>
+                <span asp-validation-for="TipoContaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Observacoes" class="control-label"></label>
+                <input asp-for="Observacoes" class="form-control" />
+                <span asp-validation-for="Observacoes" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Id" />
+
+            @Html.Partial("~/Views/Shared/_SalvarCancelarVoltar.cshtml")
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

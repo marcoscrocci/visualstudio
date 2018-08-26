@@ -1,0 +1,20 @@
+﻿@model ControleFinanceiroWeb.Models.TipoConta
+
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<h2>@SR["Detalhes do Tipo de Conta"]</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+    </dl>
+</div>
+@Html.Partial("~/Views/Shared/_EditarCancelarVoltar.cshtml", @Model)

@@ -1,0 +1,25 @@
+﻿@model ControleFinanceiroWeb.Models.TipoConta
+
+@{
+    ViewData["Title"] = @SR["Excluir"];
+}
+
+<h2>@SR["Excluir"] @SR["Tipo de Conta"]</h2>
+
+<h3>@SR["Tem certeza de que deseja excluir isso?"]</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        @Html.Partial("~/Views/Shared/_ConfirmarCancelarVoltar.cshtml")
+    </form>
+</div>
