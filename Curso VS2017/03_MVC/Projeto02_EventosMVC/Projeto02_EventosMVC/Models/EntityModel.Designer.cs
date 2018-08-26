@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\no5117\Documents\Curso_VS2017\03_MVC\Projeto02_EventosMVC\Projeto02_EventosMVC\Models\EntityModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Marcos\Projetos\Github\Visual Studio\Curso VS2017\03_MVC\Projeto02_EventosMVC\Projeto02_EventosMVC\Models\EntityModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
