@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<ul>
+    <li>@Html.ActionLink(WebGearHost.Resources.Biblioteca.PortBrasil, "Mudar", "Idioma", new { IdiomaAbreviacao = "pt-br" }, null)</li>
+    <li>@Html.ActionLink(WebGearHost.Resources.Biblioteca.Ingles, "Mudar", "Idioma", new { IdiomaAbreviacao = "en" }, null)</li>
+    <li>@DateTime.Now.ToString()</li>
+</ul>
